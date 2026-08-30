@@ -17,6 +17,7 @@ cask "tabularis" do
 
   auto_updates true
   depends_on macos: :monterey
+  conflicts_with cask: "tabularis@nightly"
 
   app "tabularis.app"
 
